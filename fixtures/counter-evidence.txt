@@ -1,0 +1,5 @@
+FICTIONAL SUPPLEMENT IR-1001-B
+Claim reference: CS-DEMO-001. Date: 2026-10-20.
+Vehicle: DEMO-CAR-01. Insured reference: DEMO-OWNER-01.
+A second examiner contradicts report IR-1001: the vehicle was moving in a timed motor race when it struck the van. The two reports disagree on whether racing caused the damage. No independent resolution has been supplied. Human review is required.
+This is synthetic adversarial counter-evidence, not a real-world authentication.

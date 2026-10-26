@@ -1,0 +1,8 @@
+CLAIMSHIELD FICTIONAL MOTOR POLICY CS-MOTOR-2026 v1
+Publisher: amzar1st/ClaimShield-AI demonstration namespace. Not an insurance company.
+Effective period: 2026-01-01 through 2026-12-31 inclusive.
+Covered vehicle: DEMO-CAR-01. Insured reference: DEMO-OWNER-01.
+C1: Sudden accidental external collision damage to DEMO-CAR-01 during the effective period is covered when the incident is established by an incident report identifying the claim reference, date, vehicle and cause.
+X1: Deliberately caused damage, racing and routine mechanical wear are excluded.
+X2: No other exclusions, deductibles, conditions or coverage limits apply in this fictional policy. A documented accidental parked-vehicle collision without racing or deliberate action has no applicable exclusion.
+The demonstration assesses documentary support only. It does not authorize payment, certify truth, decide eligibility or replace an insurer, licensed professional or human appeal process.

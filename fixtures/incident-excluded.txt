@@ -1,0 +1,5 @@
+FICTIONAL INCIDENT REPORT IR-1002
+Claim reference: CS-DEMO-002. Date: 2026-10-20.
+Vehicle: DEMO-CAR-01. Insured reference: DEMO-OWNER-01.
+Examiner statement: The driver deliberately collided with a concrete barrier during an organized motor race. The incident was not accidental; racing and deliberate action caused the damage.
+This is synthetic test evidence published by the project, not a police report or independent real-world authentication.
