@@ -1,0 +1,232 @@
+{
+  "capturedAt": "2026-10-26T05:17:12.015Z",
+  "network": "studionet",
+  "chainId": 61999,
+  "contract": "0xBFd0736a262DE3aA14D2e42f4E6b79772cC00dDa",
+  "receipts": [
+    {
+      "hash": "0xc7b23e97897c80bdda3f820e731cfde21a547b6f24c3e6e7fe45d0521900d328",
+      "status": "FINALIZED",
+      "sender": "0xf3C059C1495C80c4C94D4eB9eA43FE2fd5D6ED88",
+      "recipient": "0xBFd0736a262DE3aA14D2e42f4E6b79772cC00dDa",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {},
+      "votes": {
+        "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
+        "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "agree",
+        "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "idle",
+        "0x63d72fE364368491E62a42B9C73c317Ce1ca8434": "agree",
+        "0xCe0B66448435cA53665C954705Abd753515594Cf": "idle"
+      },
+      "validators": [
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x63d72fE364368491E62a42B9C73c317Ce1ca8434"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0xCe0B66448435cA53665C954705Abd753515594Cf"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x336458747913FE397be82c4F0926ACeB3ab13618"
+        }
+      ]
+    },
+    {
+      "hash": "0x9c769a04d78bde1e71c1c4c8d319f81bce0c4b1ce3c2c58cd6ed13f0a9dbf681",
+      "status": "FINALIZED",
+      "sender": "0xf3C059C1495C80c4C94D4eB9eA43FE2fd5D6ED88",
+      "recipient": "0xBFd0736a262DE3aA14D2e42f4E6b79772cC00dDa",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {},
+      "votes": {
+        "0x007d6451555Df7765c707284F844137927aE4e5E": "agree",
+        "0x4619C8420D50c9dE477DB2CBb7b4863A041688CB": "agree",
+        "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "idle",
+        "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4": "idle",
+        "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree"
+      },
+      "validators": [
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x007d6451555Df7765c707284F844137927aE4e5E"
+        }
+      ]
+    },
+    {
+      "hash": "0x83e30aae103f151bb5ff4b7574edd5d9e145fd5f57b0f61daba83713d9fc65a0",
+      "status": "FINALIZED",
+      "sender": "0xf3C059C1495C80c4C94D4eB9eA43FE2fd5D6ED88",
+      "recipient": "0xBFd0736a262DE3aA14D2e42f4E6b79772cC00dDa",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {},
+      "votes": {
+        "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "agree",
+        "0x5e84e17266a193077728229751aC8A1dD24be146": "agree",
+        "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "agree",
+        "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4": "agree",
+        "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree"
+      },
+      "validators": [
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x5e84e17266a193077728229751aC8A1dD24be146"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef"
+        }
+      ]
+    },
+    {
+      "hash": "0xee3f36f4b7e0066316b6baae7ea12a00b0f47e4da9813b71c2eb2fdaba811a06",
+      "status": "FINALIZED",
+      "sender": "0xf3C059C1495C80c4C94D4eB9eA43FE2fd5D6ED88",
+      "recipient": "0xBFd0736a262DE3aA14D2e42f4E6b79772cC00dDa",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {
+        "0": "{\"citations\":[]\"coverage\":\"UNCLEAR\"\"exclusion\":\"UNCLEAR\"\"incident\":\"UNCLEAR\"\"reason\":\"Model output failed the bounded schema or exact-source citation checks. Human review required.\"\"sources\":[{\"sha256\":\"515e605d5cdfe7cf65363089c2f4ab84fcf3f60916a7cf29517a0619ce478a3a\"\"status\":\"VERIFIED\"},{\"sha256\":\"25c0b823242e4d2b4e0465e1210b68cc337a9c3f86213a30eefa39c09dcb895b\"\"status\":\"VERIFIED\"},]\"verdict\":\"NEEDS_REVIEW\"}"
+      },
+      "votes": {
+        "0x4619C8420D50c9dE477DB2CBb7b4863A041688CB": "idle",
+        "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "agree",
+        "0x63d72fE364368491E62a42B9C73c317Ce1ca8434": "disagree",
+        "0xCe0B66448435cA53665C954705Abd753515594Cf": "agree",
+        "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree"
+      },
+      "validators": [
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x4619C8420D50c9dE477DB2CBb7b4863A041688CB"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A"
+        },
+        {
+          "vote": "disagree",
+          "execution": "SUCCESS",
+          "address": "0x63d72fE364368491E62a42B9C73c317Ce1ca8434"
+        }
+      ]
+    },
+    {
+      "hash": "0xcbc51e0778a4c867dd80195f88d90773e40079f9a2c76a9e6e85a45d5b99fc90",
+      "status": "FINALIZED",
+      "sender": "0x639ECe6f4FC02684fa7053c841500D9B7e67E118",
+      "recipient": "0xBFd0736a262DE3aA14D2e42f4E6b79772cC00dDa",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {
+        "0": "{\"citations\":[]\"coverage\":\"UNCLEAR\"\"exclusion\":\"UNCLEAR\"\"incident\":\"UNCLEAR\"\"reason\":\"Model output failed the bounded schema or exact-source citation checks. Human review required.\"\"sources\":[{\"sha256\":\"515e605d5cdfe7cf65363089c2f4ab84fcf3f60916a7cf29517a0619ce478a3a\"\"status\":\"VERIFIED\"},{\"sha256\":\"d447a00bb2e2ed875ae00e6487d46972523033d7e3ff703b07912d05fb5c59a1\"\"status\":\"VERIFIED\"},]\"verdict\":\"NEEDS_REVIEW\"}"
+      },
+      "votes": {
+        "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "disagree",
+        "0x5e84e17266a193077728229751aC8A1dD24be146": "disagree",
+        "0x63d72fE364368491E62a42B9C73c317Ce1ca8434": "idle",
+        "0xCe0B66448435cA53665C954705Abd753515594Cf": "disagree",
+        "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "idle"
+      },
+      "validators": [
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x63d72fE364368491E62a42B9C73c317Ce1ca8434"
+        },
+        {
+          "vote": "disagree",
+          "execution": "SUCCESS",
+          "address": "0x5e84e17266a193077728229751aC8A1dD24be146"
+        },
+        {
+          "vote": "disagree",
+          "execution": "SUCCESS",
+          "address": "0xCe0B66448435cA53665C954705Abd753515594Cf"
+        },
+        {
+          "vote": "disagree",
+          "execution": "SUCCESS",
+          "address": "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A"
+        }
+      ]
+    }
+  ]
+}

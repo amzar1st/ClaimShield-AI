@@ -1,0 +1,29 @@
+
+> claimshield-ai@1.0.0 test
+> node --test tests/lifecycle.test.mjs
+
+✔ PENDING is pending (1.101798ms)
+✔ PROPOSING is pending (0.104575ms)
+✔ ACCEPTED is pending (0.46454ms)
+✔ COMMITTING is pending (0.091295ms)
+✔ REVEALING is pending (0.11395ms)
+✔ UNDETERMINED is pending (0.074361ms)
+✔ VALIDATORS_TIMEOUT is pending (0.098096ms)
+✔ LEADER_TIMEOUT is pending (0.06754ms)
+✔ CANCELED fails (0.224584ms)
+✔ finalized successful execution (0.192486ms)
+✔ finalized revert fails (0.121841ms)
+✔ missing execution never success (0.112357ms)
+✔ tracks pending to final (0.926437ms)
+✔ RPC error retries without resubmitting (0.250713ms)
+✔ timeout remains resumable (0.438923ms)
+✔ finalized execution success with majority disagreement is failed (0.083745ms)
+✔ unknown consensus never success (0.108992ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 85.2492

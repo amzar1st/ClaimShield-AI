@@ -1,0 +1,18 @@
+{
+  "counter-evidence": {
+    "url": "https://raw.githubusercontent.com/amzar1st/ClaimShield-AI/ebc0a2edd110a14968a636bcbdb0e074c2973c08/fixtures/counter-evidence.txt",
+    "sha256": "50573374db6930bf4de8402b13c53a6a5129d87d9b6459b9feb2a8dca2f72337"
+  },
+  "incident-excluded": {
+    "url": "https://raw.githubusercontent.com/amzar1st/ClaimShield-AI/ebc0a2edd110a14968a636bcbdb0e074c2973c08/fixtures/incident-excluded.txt",
+    "sha256": "d447a00bb2e2ed875ae00e6487d46972523033d7e3ff703b07912d05fb5c59a1"
+  },
+  "policy": {
+    "url": "https://raw.githubusercontent.com/amzar1st/ClaimShield-AI/ebc0a2edd110a14968a636bcbdb0e074c2973c08/fixtures/policy.txt",
+    "sha256": "515e605d5cdfe7cf65363089c2f4ab84fcf3f60916a7cf29517a0619ce478a3a"
+  },
+  "incident-supported": {
+    "url": "https://raw.githubusercontent.com/amzar1st/ClaimShield-AI/ebc0a2edd110a14968a636bcbdb0e074c2973c08/fixtures/incident-supported.txt",
+    "sha256": "25c0b823242e4d2b4e0465e1210b68cc337a9c3f86213a30eefa39c09dcb895b"
+  }
+}

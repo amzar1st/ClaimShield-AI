@@ -1,0 +1,2 @@
+import {createClient} from 'genlayer-js';import {studionet} from 'genlayer-js/chains';import {TransactionHashVariant} from 'genlayer-js/types';import fs from 'node:fs';
+const d=JSON.parse(fs.readFileSync('dist/deployment.json','utf8'));const c=createClient({chain:studionet});const id=process.argv[2];const r=await c.readContract({address:d.address,functionName:id?'get_claim':'get_config',args:id?[id]:[],transactionHashVariant:TransactionHashVariant.LATEST_FINAL});console.log(r);

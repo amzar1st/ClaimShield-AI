@@ -1,0 +1,10 @@
+{
+  "network": "studionet",
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "address": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+  "deployer": "0xf3C059C1495C80c4C94D4eB9eA43FE2fd5D6ED88",
+  "deploymentTransaction": "0xd08ed02b204293b10349a9a6f1ffda28523301fac53433690f1e143cd4e82025",
+  "sourceSha256": "69706ed22f2b96cd53bbf429e4e900264a3547db516b761c93fa95b1724c2234",
+  "verified": true
+}
