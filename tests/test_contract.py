@@ -24,7 +24,7 @@ def answer(**changes):
 
 @pytest.fixture
 def ctx(direct_vm,direct_deploy):
-    c=direct_deploy('contracts/claimshield.py',REPO)
+    c=direct_deploy('contracts/claimshield.py',REPO,sdk_version='v0.3.0-rc7')
     c.register_policy('motor',P['url'],P['sha256'])
     c.open_claim('CS-DEMO-001','motor',I,json.dumps([E]))
     return c,direct_vm
