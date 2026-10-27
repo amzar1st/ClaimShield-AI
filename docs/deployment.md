@@ -39,9 +39,14 @@ The app's transaction trail persists public receipts/hashes in session storage. 
 
 ```sh
 python -m pip install -r requirements.txt
+python scripts/prepare-sdk.py
 python -m pytest -q tests
 npm test
 genvm-lint check contracts/claimshield.py
 ```
 
 Direct-mode tests run the official pinned Python SDK in the official genlayer-test harness with mocked web/model responses. They are not full distributed-consensus or WASM execution proof; live Studio transactions provide that separate evidence. The frontend tests simulate receipt transitions; live browser tests exercise actual signing, RPC submission and final-state reads.
+
+## Clean-environment SDK bootstrap
+
+`genlayer-test==0.29.2` requests the old `genvm-universal.tar.xz` asset, which GenVM 0.3 renamed to `genvm-runners-all.tar.xz`. `scripts/prepare-sdk.py` uses the pinned official linter downloader, verifies the official release SHA-256 `e218a1854214681560351051f76fe2b878545cf3409455ef372d57014a88ca67`, and seeds the harness cache. The test session also invokes this idempotently. This fixes clean GitHub Actions runs without modifying SDK behavior or relying on an unstated local cache. The test fixture explicitly selects `v0.3.0-rc7`; the contract still executes its own immutable runner hash.

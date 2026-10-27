@@ -1,0 +1,725 @@
+{
+  "capturedAt": "2026-10-27T13:32:50.878Z",
+  "network": "studionet",
+  "chainId": 61999,
+  "contract": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+  "receipts": [
+    {
+      "hash": "0xd08ed02b204293b10349a9a6f1ffda28523301fac53433690f1e143cd4e82025",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0xf3C059C1495C80c4C94D4eB9eA43FE2fd5D6ED88",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {},
+      "votes": {
+        "0x007d6451555Df7765c707284F844137927aE4e5E": "agree",
+        "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "agree",
+        "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907": "agree",
+        "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "agree",
+        "0x63d72fE364368491E62a42B9C73c317Ce1ca8434": "agree"
+      },
+      "validators": [
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x63d72fE364368491E62a42B9C73c317Ce1ca8434"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x007d6451555Df7765c707284F844137927aE4e5E"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0xc57c4391295c13968528082b1c93617980f9e4bef9d26309afe85a10ff2f6c6b",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0xf3C059C1495C80c4C94D4eB9eA43FE2fd5D6ED88",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {},
+      "votes": {
+        "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE": "agree",
+        "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "idle",
+        "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "idle",
+        "0xCe0B66448435cA53665C954705Abd753515594Cf": "agree",
+        "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4": "agree"
+      },
+      "validators": [
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0x889c27018679c07c459434add92c845a3cb42f9447a3520ead5c50bf009f97a2",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0xf3C059C1495C80c4C94D4eB9eA43FE2fd5D6ED88",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {},
+      "votes": {
+        "0x4619C8420D50c9dE477DB2CBb7b4863A041688CB": "idle",
+        "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907": "agree",
+        "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "agree",
+        "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "agree",
+        "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "idle"
+      },
+      "validators": [
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0xda0a356ef1823ce12988d95425ba140aa4c7e3988dbb62b5d5290f41ecb5a96e",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0xf3C059C1495C80c4C94D4eB9eA43FE2fd5D6ED88",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {
+        "0": "{\"citations\":[{\"field\":\"coverage\"\"quote\":\"C1: Sudden accidental external collision damage to DEMO-CAR-01 during the effective period is covered when the incident is established by an incident report identifying the claim reference, date, vehicle and cause.\"\"source\":\"P\"},{\"field\":\"exclusion\"\"quote\":\"X2: No other exclusions, deductibles, conditions or coverage limits apply in this fictional policy. A documented accidental parked-vehicle collision without racing or deliberate action has no applicable exclusion.\"\"source\":\"P\"},{\"field\":\"incident\"\"quote\":\"Examiner statement: A delivery van accidentally struck the stationary parked vehicle, damaging its rear panel. This was a sudden accidental external collision. No racing, deliberate action or mechanical wear caused the damage.\"\"source\":\"E0\"},]\"coverage\":\"YES\"\"exclusion\":\"NO\"\"incident\":\"YES\"\"reason\":\"Policy covers sudden accidental external collision damage to DEMO-CAR-01 during 2026, contingent on an incident report with claim reference, date, vehicle and cause. E0 provides those elements and describes an accidental parked-vehicle collision. The only listed exclusions are deliberate damage, racing, and mechanical wear, which the report says did not cause the damage.\"\"sources\":[{\"sha256\":\"515e605d5cdfe7cf65363089c2f4ab84fcf3f60916a7cf29517a0619ce478a3a\"\"status\":\"VERIFIED\"},{\"sha256\":\"25c0b823242e4d2b4e0465e1210b68cc337a9c3f86213a30eefa39c09dcb895b\"\"status\":\"VERIFIED\"},]\"verdict\":\"SUPPORTED\"}"
+      },
+      "votes": {
+        "0x007d6451555Df7765c707284F844137927aE4e5E": "idle",
+        "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "agree",
+        "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "agree",
+        "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "idle",
+        "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9": "agree"
+      },
+      "validators": [
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x007d6451555Df7765c707284F844137927aE4e5E"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0x6c4739e538037bb5ce06bf6fdea68d9a95d3c2c3448eaae63389398641e09141",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0xf3C059C1495C80c4C94D4eB9eA43FE2fd5D6ED88",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {},
+      "votes": {
+        "0x4619C8420D50c9dE477DB2CBb7b4863A041688CB": "agree",
+        "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907": "agree",
+        "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "agree",
+        "0x5e84e17266a193077728229751aC8A1dD24be146": "agree",
+        "0x63d72fE364368491E62a42B9C73c317Ce1ca8434": "agree"
+      },
+      "validators": [
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x4619C8420D50c9dE477DB2CBb7b4863A041688CB"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x63d72fE364368491E62a42B9C73c317Ce1ca8434"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x5e84e17266a193077728229751aC8A1dD24be146"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0x0968fff8cafcad1e25b01337286dd2661cf12f49828cf09e39d28b86fc4f90ee",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0xf3C059C1495C80c4C94D4eB9eA43FE2fd5D6ED88",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {
+        "0": "{\"citations\":[{\"field\":\"coverage\"\"quote\":\"C1: Sudden accidental external collision damage to DEMO-CAR-01 during the effective period is covered when the incident is established by an incident report identifying the claim reference, date, vehicle and cause.\"\"source\":\"P\"},{\"field\":\"incident\"\"quote\":\"A second examiner contradicts report IR-1001: the vehicle was moving in a timed motor race when it struck the van. The two reports disagree on whether racing caused the damage. No independent resolution has been supplied. Human review is required.\"\"source\":\"E1\"},]\"coverage\":\"UNCLEAR\"\"exclusion\":\"UNCLEAR\"\"incident\":\"UNCLEAR\"\"reason\":\"E0 supports an accidental collision matching C1, but E1 directly contradicts the cause (racing vs. parked/accidental) with no independent resolution; racing is excluded under X1 and accidental collision under X2 has no exclusion, so the conflicting accounts leave coverage, exclusion and the underlying incident all unresolved pending human review.\"\"sources\":[{\"sha256\":\"515e605d5cdfe7cf65363089c2f4ab84fcf3f60916a7cf29517a0619ce478a3a\"\"status\":\"VERIFIED\"},{\"sha256\":\"25c0b823242e4d2b4e0465e1210b68cc337a9c3f86213a30eefa39c09dcb895b\"\"status\":\"VERIFIED\"},{\"sha256\":\"50573374db6930bf4de8402b13c53a6a5129d87d9b6459b9feb2a8dca2f72337\"\"status\":\"VERIFIED\"},]\"verdict\":\"NEEDS_REVIEW\"}"
+      },
+      "votes": {
+        "0x007d6451555Df7765c707284F844137927aE4e5E": "idle",
+        "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "idle",
+        "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "agree",
+        "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9": "agree",
+        "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947": "agree"
+      },
+      "validators": [
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x007d6451555Df7765c707284F844137927aE4e5E"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0x0c3ea047ea8293e790ee6b7354bc9f90974aa915838a9e986b4aae2dac9eaa34",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0x7CcB5a114737674866315cE5649b487e766Cf494",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {},
+      "votes": {
+        "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
+        "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "agree",
+        "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "agree",
+        "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "agree",
+        "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "agree"
+      },
+      "validators": [
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x336458747913FE397be82c4F0926ACeB3ab13618"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0x3b046c0be32a7ecc0a54fb653df748d4f9e8fcb1f64be5bb5ec5b7e1ecb0fdb9",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0x7CcB5a114737674866315cE5649b487e766Cf494",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {
+        "0": "{\"citations\":[{\"field\":\"coverage\"\"quote\":\"C1: Sudden accidental external collision damage to DEMO-CAR-01 during the effective period is covered when the incident is established by an incident report identifying the claim reference, date, vehicle and cause.\"\"source\":\"P\"},{\"field\":\"exclusion\"\"quote\":\"X1: Deliberately caused damage, racing and routine mechanical wear are excluded.\"\"source\":\"P\"},{\"field\":\"incident\"\"quote\":\"Examiner statement: The driver deliberately collided with a concrete barrier during an organized motor race. The incident was not accidental; racing and deliberate action caused the damage.\"\"source\":\"E0\"},]\"coverage\":\"NO\"\"exclusion\":\"YES\"\"incident\":\"YES\"\"reason\":\"Policy covers only sudden accidental external collision damage during the period. The incident report identifies the claim reference, date, and vehicle, but states the damage was deliberate and occurred during an organized motor race, so the event is established yet not a covered accidental event and an explicit exclusion applies.\"\"sources\":[{\"sha256\":\"515e605d5cdfe7cf65363089c2f4ab84fcf3f60916a7cf29517a0619ce478a3a\"\"status\":\"VERIFIED\"},{\"sha256\":\"d447a00bb2e2ed875ae00e6487d46972523033d7e3ff703b07912d05fb5c59a1\"\"status\":\"VERIFIED\"},]\"verdict\":\"NOT_SUPPORTED\"}"
+      },
+      "votes": {
+        "0x045291B293B9D68969c18B6637A8258038cf787A": "agree",
+        "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE": "idle",
+        "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "agree",
+        "0x4619C8420D50c9dE477DB2CBb7b4863A041688CB": "idle",
+        "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "agree"
+      },
+      "validators": [
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x4619C8420D50c9dE477DB2CBb7b4863A041688CB"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0x13796acf6ad60678a4cc708399e23256f5583e5d944535177f3a6518c8ec680b",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0x7CcB5a114737674866315cE5649b487e766Cf494",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {},
+      "votes": {
+        "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE": "agree",
+        "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "agree",
+        "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "agree",
+        "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "agree",
+        "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4": "agree"
+      },
+      "validators": [
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0xf73d251c6f1197969b73d0072889596374185d5dd3240591d18c1a657a11be4c",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0x7CcB5a114737674866315cE5649b487e766Cf494",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {
+        "0": "{\"citations\":[]\"coverage\":\"UNCLEAR\"\"exclusion\":\"UNCLEAR\"\"incident\":\"UNCLEAR\"\"reason\":\"Required policy or all incident evidence unavailable or unverified.\"\"sources\":[{\"sha256\":\"515e605d5cdfe7cf65363089c2f4ab84fcf3f60916a7cf29517a0619ce478a3a\"\"status\":\"VERIFIED\"},{\"sha256\":\"0000000000000000000000000000000000000000000000000000000000000000\"\"status\":\"HASH_MISMATCH\"},]\"verdict\":\"INSUFFICIENT_EVIDENCE\"}"
+      },
+      "votes": {
+        "0x5e84e17266a193077728229751aC8A1dD24be146": "agree",
+        "0x63d72fE364368491E62a42B9C73c317Ce1ca8434": "idle",
+        "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "agree",
+        "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9": "agree",
+        "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947": "idle"
+      },
+      "validators": [
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x63d72fE364368491E62a42B9C73c317Ce1ca8434"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x5e84e17266a193077728229751aC8A1dD24be146"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0x8e76258d196f70c1c18c6528f7319b54367f4f8086d77d53ac646240d6e1687c",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0x258F3393B61d133a3ce5492165f4A4eE05A33eA4",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {},
+      "votes": {
+        "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
+        "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "idle",
+        "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "agree",
+        "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4": "idle",
+        "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9": "agree"
+      },
+      "validators": [
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x336458747913FE397be82c4F0926ACeB3ab13618"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0xcd5351241e58b60add5cd4f99da44789b403a8f61c4d303429bd8901b082d000",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0x258F3393B61d133a3ce5492165f4A4eE05A33eA4",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {
+        "0": "{\"citations\":[]\"coverage\":\"UNCLEAR\"\"exclusion\":\"UNCLEAR\"\"incident\":\"UNCLEAR\"\"reason\":\"Required policy or all incident evidence unavailable or unverified.\"\"sources\":[{\"sha256\":\"515e605d5cdfe7cf65363089c2f4ab84fcf3f60916a7cf29517a0619ce478a3a\"\"status\":\"VERIFIED\"},{\"sha256\":\"0000000000000000000000000000000000000000000000000000000000000000\"\"status\":\"HASH_MISMATCH\"},]\"verdict\":\"INSUFFICIENT_EVIDENCE\"}"
+      },
+      "votes": {
+        "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "idle",
+        "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907": "agree",
+        "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "idle",
+        "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "agree",
+        "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "agree"
+      },
+      "validators": [
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0x97a33fda5c18f98e969f171df3b6005e482dea3f7964d9913e89d8775ee0f37f",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0x258F3393B61d133a3ce5492165f4A4eE05A33eA4",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {},
+      "votes": {
+        "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE": "agree",
+        "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907": "idle",
+        "0x63d72fE364368491E62a42B9C73c317Ce1ca8434": "agree",
+        "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "idle",
+        "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree"
+      },
+      "validators": [
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x0eb3859451817bC25Cc717D4F676D54D0D3aD0aE"
+        },
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x5847AF34a4e5bA96490f8c883598f68EC9B0B907"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0xad6fe6d4342533933059a85061b78b6f53cbace710dd0abb80930c4ada27eeb9",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0x258F3393B61d133a3ce5492165f4A4eE05A33eA4",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "SUCCESS",
+      "executionDetail": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {
+        "0": "{\"citations\":[{\"field\":\"coverage\"\"quote\":\"C1: Sudden accidental external collision damage to DEMO-CAR-01 during the effective period is covered when the incident is established by an incident report identifying the claim reference, date, vehicle and cause.\"\"source\":\"P\"},{\"field\":\"exclusion\"\"quote\":\"X2: No other exclusions, deductibles, conditions or coverage limits apply in this fictional policy. A documented accidental parked-vehicle collision without racing or deliberate action has no applicable exclusion.\"\"source\":\"P\"},{\"field\":\"incident\"\"quote\":\"Examiner statement: A delivery van accidentally struck the stationary parked vehicle, damaging its rear panel. This was a sudden accidental external collision. No racing, deliberate action or mechanical wear caused the damage.\"\"source\":\"E1\"},]\"coverage\":\"YES\"\"exclusion\":\"NO\"\"incident\":\"YES\"\"reason\":\"The incident report E1 confirms the date, vehicle, and accidental collision cause for claim CS-DEMO-001. The policy P covers sudden accidental external collisions within the 2026 effective period. Policy line X2 states no exclusion applies to a documented accidental parked-vehicle collision.\"\"sources\":[{\"sha256\":\"515e605d5cdfe7cf65363089c2f4ab84fcf3f60916a7cf29517a0619ce478a3a\"\"status\":\"VERIFIED\"},{\"sha256\":\"0000000000000000000000000000000000000000000000000000000000000000\"\"status\":\"HASH_MISMATCH\"},{\"sha256\":\"25c0b823242e4d2b4e0465e1210b68cc337a9c3f86213a30eefa39c09dcb895b\"\"status\":\"VERIFIED\"},]\"verdict\":\"SUPPORTED\"}"
+      },
+      "votes": {
+        "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "agree",
+        "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "idle",
+        "0x63d72fE364368491E62a42B9C73c317Ce1ca8434": "agree",
+        "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "agree",
+        "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "idle"
+      },
+      "validators": [
+        {
+          "vote": "idle",
+          "execution": "ERROR",
+          "address": "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef"
+        },
+        {
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "address": "0x63d72fE364368491E62a42B9C73c317Ce1ca8434"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    },
+    {
+      "hash": "0x52ccabf1842eb21309a62b1085a66666c74c71c55eb474e163b77bdd47740d6f",
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "sender": "0x258F3393B61d133a3ce5492165f4A4eE05A33eA4",
+      "recipient": "0x2B50Ecb7BE683A3e08Ee9d89700D28C80ba24B70",
+      "execution": "ERROR",
+      "executionDetail": {
+        "stderr": "Traceback (most recent call last):\n  File \"/py/libs/_genlayer_runner.py\", line 180, in <module>\n    _handle_main()\n    ~~~~~~~~~~~~^^\n  File \"/py/libs/_genlayer_runner.py\", line 170, in _handle_main\n    _give_result(\n    ~~~~~~~~~~~~^\n    \tlambda: meth2call(contract_instance, *cd.get('args', []), **cd.get('kwargs', {}))\n     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/py/libs/_genlayer_runner.py\", line 65, in _give_result\n    res = res_fn()\n  File \"/py/libs/_genlayer_runner.py\", line 171, in <lambda>\n    lambda: meth2call(contract_instance, *cd.get('args', []), **cd.get('kwargs', {}))\n            ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/contract.py\", line 135, in open_claim\n    assert claim_id not in self.claims, \"Claim already exists\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Claim already exists\n",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "leaderOutput": {},
+      "votes": {
+        "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "agree",
+        "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "agree",
+        "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "agree",
+        "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree",
+        "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9": "agree"
+      },
+      "validators": [
+        {
+          "vote": "agree",
+          "execution": "ERROR",
+          "address": "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A"
+        },
+        {
+          "vote": "agree",
+          "execution": "ERROR",
+          "address": "0xB4EE99165ffe987E64B7b72e45a753309c501eef"
+        },
+        {
+          "vote": "agree",
+          "execution": "ERROR",
+          "address": "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2"
+        },
+        {
+          "vote": "agree",
+          "execution": "ERROR",
+          "address": "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186"
+        }
+      ],
+      "leaderOnly": false,
+      "executionMode": "NORMAL"
+    }
+  ]
+}

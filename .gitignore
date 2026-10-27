@@ -5,3 +5,6 @@ __pycache__/
 .pytest_cache/
 artifacts/
 .openai/*.local.*
+
+# Generated frontend bundle; npm run build recreates it.
+dist/app.js

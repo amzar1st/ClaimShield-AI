@@ -8,6 +8,8 @@
 - Deployment: [`0xd08ed02b204293b10349a9a6f1ffda28523301fac53433690f1e143cd4e82025`](https://explorer-studio.genlayer.com/transactions/0xd08ed02b204293b10349a9a6f1ffda28523301fac53433690f1e143cd4e82025)
 - [Verification evidence](docs/evidence.md) · [Security and trust boundaries](docs/security.md) · [Deployment](docs/deployment.md) · [Submission details](docs/submission.md)
 
+**Verification:** 48 contract tests + 17 transaction tests; GenVM lint and semantic validation passed. Fifteen full-consensus release transactions finalized, including the expected duplicate rejection. All four verdicts and challenge/recovery histories are documented in [live verification](docs/evidence.md).
+
 ## The trust problem
 
 A claim examiner and claimant can disagree about which policy version applies, what the incident documents establish, and why a claim was judged supported or unsupported. An ordinary AI response gives neither party a shared, independently checked record. ClaimShield binds a policy and source bytes to a reproducible input commitment, uses GenLayer validators to independently interpret the same evidence, and preserves the reasoning and quoted sources for review.
@@ -50,11 +52,14 @@ Requirements: Python 3.12+, Node 20+ (tested on Node 24).
 ```sh
 python -m pip install -r requirements.txt
 npm ci
+python scripts/prepare-sdk.py
 python -m pytest -q tests
 npm test
 npm run build
 genvm-lint check contracts/claimshield.py
 ```
+
+The test bootstrap verifies the official GenVM runner bundle SHA-256 and handles the renamed v0.3 artifact that genlayer-test 0.29.2 cannot download itself. It does not alter the SDK or mock its contract behavior.
 
 Contract runner is pinned to `py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6`, with ABI `v0.2.16`, matching the deployed stable Studio environment. GenVM validation also reports a newer runner available; upgrading requires compatibility testing, not silently changing the deployed source. GenLayerJS is pinned to stable `1.1.8`; the Consensus v0.6 preview uses a different SDK/network and is not this deployment.
 

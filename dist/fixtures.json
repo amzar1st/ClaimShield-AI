@@ -14,5 +14,9 @@
   "incident-supported": {
     "url": "https://raw.githubusercontent.com/amzar1st/ClaimShield-AI/ebc0a2edd110a14968a636bcbdb0e074c2973c08/fixtures/incident-supported.txt",
     "sha256": "25c0b823242e4d2b4e0465e1210b68cc337a9c3f86213a30eefa39c09dcb895b"
+  },
+  "incident-recovered": {
+    "url": "https://raw.githubusercontent.com/amzar1st/ClaimShield-AI/7d810cae2624299f9a88ef596e6c7805e2cfdfbb/fixtures/incident-recovered.txt",
+    "sha256": "25c0b823242e4d2b4e0465e1210b68cc337a9c3f86213a30eefa39c09dcb895b"
   }
 }
